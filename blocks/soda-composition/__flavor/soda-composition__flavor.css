@@ -1,0 +1,17 @@
+.soda-composition__flavor {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+}
+
+@media screen and (max-width: 1023px) {
+    .soda-composition__flavor {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .soda-composition__flavor {
+        gap: 50px;
+    }
+}

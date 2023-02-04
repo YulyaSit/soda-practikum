@@ -1,0 +1,22 @@
+.lemonades {
+    padding: 20px 180px 0 154px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    z-index: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .lemonades {
+        padding: 70px 109px 0;
+        grid-template-columns: 1fr;
+        gap: 120px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lemonades {
+        padding: 30px 20px 0;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}

@@ -1,0 +1,22 @@
+.main-paragraph {
+    margin: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.3px;
+    max-width: 386px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 78px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 767px) {
+    .main-paragraph {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 39px;
+    }
+}
