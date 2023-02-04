@@ -70,13 +70,13 @@
 /* секция подвала */
 @import url(../blocks/soda-caption/_footer/soda-caption_footer_gradient.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__title-list/footer__title-list.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__link/footer__link.css);
-
+@import url(../blocks/footer/__title/footer__title.css);
 
 
 
