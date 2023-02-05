@@ -1,24 +1,34 @@
 .lemonades__caption-mango {
-    grid-column: 2/3;
-    grid-row: 1/2;
     z-index: 1;
-    margin-left: -5px;
-    margin-top: 22px;
+    position: absolute;
+    right: 520px;
+    top: 42px;
 }
 
 @media screen and (max-width: 1023px) {
     .lemonades__caption-mango {
-        grid-column: 1/2;
-        grid-row: 2/3;
-        margin-left: -55px;
-        margin-top: 4px;
+        left: 141px;
+        top: 396px;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .lemonades__caption-mango {
+        left: 56px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .lemonades__caption-mango {
         width: 122px;
-        margin-left: 4px;
-        margin-top: 178px;
+        left: 160px;
+        top: 292px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .lemonades__caption-mango {
+        left: 16px;
+        top: 307px;
     }
 }

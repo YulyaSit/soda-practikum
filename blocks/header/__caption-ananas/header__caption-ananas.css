@@ -17,8 +17,15 @@
 
 @media screen and (max-width: 767px) {
     .header__caption-ananas {
-        margin-right: 5px;
+        margin-right: 378px;
         margin-bottom: -41px;
         width: 98px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__caption-ananas {
+        margin-right: 5px;
+        margin-bottom: -41px;
     }
 }

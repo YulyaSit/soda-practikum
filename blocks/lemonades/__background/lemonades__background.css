@@ -5,9 +5,7 @@
     justify-self: flex-end;
     grid-column: 2/3;
     grid-row: 1/2;
-    background-image: url(../../../images/soda-s-mango.jpg);
-    background-repeat: no-repeat;
-    min-height: 510px;
+    margin-bottom: -100px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -15,7 +13,7 @@
         grid-column: 1/2;
         grid-row: 2/3;
         justify-self: center;
-        min-height: 520px;
+        margin-bottom: -90px;
     }
 }
 
@@ -24,7 +22,6 @@
         max-width: 280px;
         min-height: 397px;
         background-size: cover;
-        z-index: -1;
         margin-bottom: -58px;
     }
 }

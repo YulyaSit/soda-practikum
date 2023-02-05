@@ -2,7 +2,8 @@
     padding: 20px 180px 0 154px;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    z-index: 0;
+    z-index: -1;
+    position: relative;
 }
 
 @media screen and (max-width: 1023px) {

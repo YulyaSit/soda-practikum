@@ -9,7 +9,15 @@
     padding-top: 10px;
 }
 
+.form__name_big_size {
+    max-width: 633px;
+}
+
 .form__name[type="text"] {
+    color: #ffe;
+}
+
+.form__name[type="email"] {
     color: #ffe;
 }
 
@@ -26,6 +34,10 @@
 }
 
 #second-name[value]:valid + .form__label[for="second-name"] {
+    color: rgba(255, 255, 255, .5);
+}
+
+#email[value]:valid + .form__label[for="email"] {
     color: rgba(255, 255, 255, .5);
 }
 

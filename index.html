@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
-    <header class="header background_color_violet-light">
+    <header class="header background-color-violet-light">
         <span class="soda-caption soda-caption_header_position">soda</span>
         <img class="header__image" src="./images/soda-butilki.jpg" alt="Сода с ананасом">
+        <img class="header__caption-ananas" src="./images/ananas.svg" alt="Ананас">
         <h1 class="header__title">Вкусные лимонады из фруктов</h1>
         <img class="header__logo" src="./images/logo.svg" alt="Логотип">
-        <img class="header__caption-ananas" src="./images/ananas.svg" alt="Ананас">
         <button class="button button_height_s button_width_s" type="button">Подробнее</button>
     </header>
     <main class="content">
@@ -22,12 +22,12 @@
         </div>
         <section class="soda-composition">
           <h2 class="soda-composition__title">Как это работает&quest;</h2>
-          <article class="soda-composition__flavor main-container background_color_violet-light">
+          <article class="soda-composition__flavor main-container background-color-violet-light">
             <h3 class="main-subtitle">Вкусы</h3>
             <p class="main-paragraph">Пейте фрукты, а не газировку со вкусовыми добавками, наши лимонады на 100% натуральны!</p>
             <img class="soda-composition__image" src="./images/vkusi.jpg" alt="Газировка с клубникой">
           </article>
-          <article class="soda-composition__compositions main-container background_color_violet">
+          <article class="soda-composition__compositions main-container background-color-violet">
             <h3 class="main-subtitle">Состав</h3>
             <p class="main-paragraph">Наши натуральные лимонады делаются из натуральных компонентов.</p>
             <button class="button button_position_left" type="button">Попробовать</button>
@@ -44,13 +44,13 @@
         </section>
         <section class="lemonades">
             <h2 class="lemonades__subtitle"><span class="lemonades__soda">soda</span> — натуральные лимонады!</h2>
-            <div class="lemonades__background"></div>
+            <img src="./images/soda-s-mango.jpg" class="lemonades__background">
             <img class="lemonades__caption-mango" src="./images/mango.svg" alt="Манго">
         </section>
         <section class="sempls">
           <h2 class="sempls__subtitle">Семплы</h2>
           <p class="sempls__paragraph">Хотите получить семплы каждого вкуса, чтобы понять что нравится вам? заполните форму!</p>
-          <form class="form">
+          <form class="form" name="form-sempls">
             <h3 class="form__title">Семплы</h3>
             <fieldset class="form__fieldset">
               <ul class="form__fieldset-container">
@@ -63,16 +63,16 @@
                   <label for="second-name" class="form__label form__label_text-size_s">Фамилия&nbsp;&ast;</label>
                 </li>
                 <li class="form__input-email form__column-reverse">
-                  <input type="email" class="form__email" id="email" name="email" value required="required">
+                  <input type="email" class="form__name form__name_big_size" id="email" name="email" value required="required">
                   <label for="email" class="form__label form__label-email form__label_margin_no form__label_text-size_s">Email&nbsp;&ast;</label>
                 </li>
               </ul>
             </fieldset>
-            <button type="button" class="form__button button button_background_color button_position_left button_size_s button_size_m button_height_s">Запросить</button>
+            <button type="submit" class="form__button button button_background_color button_position_left button_size_s button_size_m button_height_s">Запросить</button>
           </form>
         </section>
     </main>
-    <footer class="footer background_color_violet">
+    <footer class="footer background-color-violet">
       <span class="soda-caption soda-caption_footer_gradient">soda</span>
       <nav class="footer__menu">
         <h2 class="footer__title">Меню</h2>
@@ -85,8 +85,8 @@
       <nav class="footer__contacts">
         <h2 class="footer__title">Контакты</h2>
         <ul class="footer__list">
-          <li class="footer__title-list"><a class="footer__link" href="#">press&commat;soda.io</a></li>
-          <li class="footer__title-list"><a class="footer__link" href="#">connect&commat;soda.io</a></li>
+          <li class="footer__title-list">press&commat;soda.io</li>
+          <li class="footer__title-list">connect&commat;soda.io</li>
         </ul>
       </nav>
       <p class="footer__copyright">&copy; 2021 Soda, Inc. All Rights Reserved.</p>

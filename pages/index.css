@@ -5,8 +5,8 @@
 @import url(../blocks/page/page.css);
 
 /* Блоки для фона */
-@import url(../blocks/background_color_violet-light/background_color_violet-light.css);
-@import url(../blocks/background_color_violet/background_color_violet.css);
+@import url(../blocks/background-color-violet-light/background-color-violet-light.css);
+@import url(../blocks/background-color-violet/background-color-violet.css);
 
 /* Секция header */
 @import url(../blocks/header/header.css);
@@ -56,16 +56,14 @@
 @import url(../blocks/form/__fieldset/form__fieldset.css);
 @import url(../blocks/form/__label/form__label.css);
 @import url(../blocks/form/__name/form__name.css);
-@import url(../blocks/form/__email/form__email.css);
 @import url(../blocks/form/__input-email/form__input-email.css);
 @import url(../blocks/form/__label/_margin/form__label_margin_no.css);
 @import url(../blocks/form/__fieldset-container/form__fieldset-container.css);
 @import url(../blocks/form/__column-reverse/form__column-reverse.css);
-@import url(../blocks/button/_size_s/button_size_s.css);
+@import url(../blocks/button/_size/button_size_s.css);
 @import url(../blocks/form/__label/_text-size_s/form__label_text-size_s.css);
 @import url(../blocks/button/_size_m/button_size_m.css);
 @import url(../blocks/button/_height/button_height_s.css);
-@import url(../blocks/white-text-opacity/white-text-opacity.css);
 
 /* секция подвала */
 @import url(../blocks/soda-caption/_footer/soda-caption_footer_gradient.css);
