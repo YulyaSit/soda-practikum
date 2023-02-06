@@ -9,10 +9,6 @@
     padding-top: 10px;
 }
 
-.form__name_big_size {
-    max-width: 633px;
-}
-
 .form__name[type="text"] {
     color: #ffe;
 }
