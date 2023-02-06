@@ -1,0 +1,30 @@
+.marquee-container__marquee {
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+    animation: marquee 10s infinite linear alternate;
+}
+
+.marquee-container__marquee::after {
+    content: 'fresh — fresh — fresh — fresh — fresh — fresh — fresh — fresh — fresh — fresh — fresh — fresh — fresh — fresh — fresh —';
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .marquee-container__marquee {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

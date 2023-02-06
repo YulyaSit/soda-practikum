@@ -1,0 +1,27 @@
+.header__logo {
+    border-radius: 50%;
+    border: 200px solid rgba(53, 48, 255, 0.2);
+    position: absolute;
+    top: -164px;
+    right: -164px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1023px) {
+    .header__logo {
+        border: 0;
+        width: 128px;
+        height:128px;
+        top: 40px;
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__logo {
+        width: 94px;
+        height: 94px;
+        top: 20px;
+        right: 20px;
+    }
+}

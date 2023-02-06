@@ -1,0 +1,25 @@
+.sempls__subtitle {
+    margin: 0;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 65px;
+    color: #1E3264;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin-top: 149px;
+}
+
+@media screen and (max-width: 1023px) {
+    .sempls__subtitle {
+        margin: 0;
+        margin-left: 26px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sempls__subtitle {
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 10px;
+    }
+}

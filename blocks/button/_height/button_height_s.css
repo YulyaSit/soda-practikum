@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+    .button_height_s {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+}

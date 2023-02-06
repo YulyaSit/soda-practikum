@@ -1,0 +1,10 @@
+.form__input-email {
+    grid-column: 1/3;
+  }
+
+  @media screen and (max-width: 1023px) {
+    .form__input-email {
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+  }

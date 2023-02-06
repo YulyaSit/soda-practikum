@@ -1,0 +1,16 @@
+@media screen and (max-width: 1023px) {
+    .button_width_s {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        justify-self: self-end;
+        align-self: flex-start;
+    }
+}
+@media screen and (max-width: 767px) {
+    .button_width_s {
+        justify-self: flex-start;
+        align-self: flex-end;
+        margin-top: 78px;
+        width: 152px;
+    }
+}

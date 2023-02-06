@@ -1,0 +1,35 @@
+.lemonades__subtitle {
+    margin: 0;
+    color: #1E3264;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 67px;
+    letter-spacing: 0.3px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 2;
+    align-self: center;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+@media screen and (max-width: 1210px) {
+    .lemonades__subtitle {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .lemonades__subtitle {
+        font-size: 60px;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lemonades__subtitle {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

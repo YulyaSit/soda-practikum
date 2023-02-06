@@ -1,0 +1,24 @@
+.soda-composition__ellipse {
+    box-sizing: border-box;
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    background: #E1FD2C;
+    border: 3px solid #016450;
+    top: 123px;
+    right: 533px;
+}
+
+@media screen and (max-width: 1023px) {
+    .soda-composition__ellipse {
+        top: 300px;
+        right: 60px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .soda-composition__ellipse {
+        display: none;
+    }
+}

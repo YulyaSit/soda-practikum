@@ -1,0 +1,30 @@
+.sempls__paragraph {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.3px;
+    color: #1E3264;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin-top: 263px;
+    max-width: 457px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+    .sempls__paragraph {
+        margin-left: 26px;
+        margin-top: 114px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sempls__paragraph {
+        font-size: 14px;
+        line-height: 19px;
+        margin-left: 10px;
+        margin-top: 45px;
+        max-width: 240px;
+    }
+}

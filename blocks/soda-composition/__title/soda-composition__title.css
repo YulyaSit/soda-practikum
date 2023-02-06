@@ -1,0 +1,18 @@
+.soda-composition__title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-bottom: 120px;
+    color: #1E3264;
+}
+
+@media screen and (max-width: 767px) {
+    .soda-composition__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,33 @@
+.soda-caption_footer_gradient {
+    width: 152.43px;
+    height: 152.43px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  0 0 0 40px rgba(85, 81, 255, .35), 0 0 0 75px #9960F6;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 226px;
+    margin-top: 75px;
+    background-color: rgb(53, 48, 255, .3);
+}
+
+@media screen and (max-width: 1023px) {
+    .soda-caption_footer_gradient {
+        width: 101.62px;
+        height: 101.62px;
+        line-height: 9px;
+        font-size: 20px;
+        box-shadow:  0 0 0 25px rgba(85, 81, 255, .35), 0 0 0 50px #9960F6;
+        margin-left: 101px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .soda-caption_footer_gradient {
+        margin: 0;
+        margin-bottom: 49px;
+    }
+}

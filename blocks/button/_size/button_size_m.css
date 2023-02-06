@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+    .button_size_m {
+        max-width: 220px;
+        width: 100%;
+    }
+}

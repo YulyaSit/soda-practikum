@@ -1,0 +1,27 @@
+.lemonades__background {
+    max-width: 430px;
+    width: 100%;
+    display: flex;
+    justify-self: flex-end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-bottom: -100px;
+}
+
+@media screen and (max-width: 1023px) {
+    .lemonades__background {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-self: center;
+        margin-bottom: -90px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lemonades__background {
+        max-width: 280px;
+        min-height: 397px;
+        background-size: cover;
+        margin-bottom: -58px;
+    }
+}

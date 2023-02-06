@@ -1,0 +1,83 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+/* Стили для body */
+@import url(../blocks/page/page.css);
+
+/* Блоки для фона */
+@import url(../blocks/background-color-violet-light/background-color-violet-light.css);
+@import url(../blocks/background-color-violet/background-color-violet.css);
+
+/* Секция header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__caption-ananas/header__caption-ananas.css);
+@import url(../blocks/soda-caption/soda-caption.css);
+@import url(../blocks/header/__image/header__image.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/soda-caption/_header/soda-caption_header_position.css);
+@import url(../blocks/button/_width/button_width_s.css);
+ 
+/* Бегущая строка */
+@import url(../blocks/marquee-container/marquee-container.css);
+@import url(../blocks/marquee-container/__marquee/marquee-container__marquee.css);
+
+/* Секция Composition */
+@import url(../blocks/main-container/main-container.css);
+@import url(../blocks/main-paragraph/main-paragraph.css);
+@import url(../blocks/button/_position/button_position_left.css);
+@import url(../blocks/soda-composition/soda-composition.css);
+@import url(../blocks/soda-composition/__title/soda-composition__title.css);
+@import url(../blocks/main-subtitle/main-subtitle.css);
+@import url(../blocks/soda-composition/__flavor/soda-composition__flavor.css);
+@import url(../blocks/soda-composition/__image/soda-composition__image.css);
+@import url(../blocks/soda-composition/__list/soda-composition__list.css);
+@import url(../blocks/soda-composition/__ingridients/soda-composition__ingridients.css);
+@import url(../blocks/soda-composition/__compositions/soda-composition__compositions.css);
+@import url(../blocks/soda-composition/__ellipse/soda-composition__ellipse.css);
+@import url(../blocks/soda-composition/__ellipse/_size/soda-composition__ellipse_size_s.css);
+
+/* Секция lemonades */
+@import url(../blocks/lemonades/lemonades.css);
+@import url(../blocks/lemonades/__subtitle/lemonades__subtitle.css);
+@import url(../blocks/lemonades/__soda/lemonades__soda.css);
+@import url(../blocks/lemonades/__background/lemonades__background.css);
+@import url(../blocks/lemonades/__caption-mango/lemonades__caption-mango.css);
+
+/* Секция Семплы */
+@import url(../blocks/button/_background/button_background_color.css);
+@import url(../blocks/sempls/sempls.css);
+@import url(../blocks/sempls/__subtitle/sempls__subtitle.css);
+@import url(../blocks/sempls/__paragraph/sempls__paragraph.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__fieldset/form__fieldset.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__name/form__name.css);
+@import url(../blocks/form/__input-email/form__input-email.css);
+@import url(../blocks/form/__label/_margin/form__label_margin_no.css);
+@import url(../blocks/form/__fieldset-container/form__fieldset-container.css);
+@import url(../blocks/form/__column-reverse/form__column-reverse.css);
+@import url(../blocks/button/_size/button_size_s.css);
+@import url(../blocks/form/__label/_text-size/form__label_text-size_s.css);
+@import url(../blocks/button/_size/button_size_m.css);
+@import url(../blocks/button/_height/button_height_s.css);
+@import url(../blocks/form/__name/_big/form__name_big_size.css);
+
+/* секция подвала */
+@import url(../blocks/soda-caption/_footer/soda-caption_footer_gradient.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__title-list/footer__title-list.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__title/footer__title.css);
+
+
+
+
+
