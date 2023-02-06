@@ -17,7 +17,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/soda-caption/_header/soda-caption_header_position.css);
-@import url(../blocks/button/_width_s/button_width_s.css);
+@import url(../blocks/button/_width/button_width_s.css);
  
 /* Бегущая строка */
 @import url(../blocks/marquee-container/marquee-container.css);
@@ -61,7 +61,7 @@
 @import url(../blocks/form/__fieldset-container/form__fieldset-container.css);
 @import url(../blocks/form/__column-reverse/form__column-reverse.css);
 @import url(../blocks/button/_size/button_size_s.css);
-@import url(../blocks/form/__label/_text-size_s/form__label_text-size_s.css);
+@import url(../blocks/form/__label/_text-size/form__label_text-size_s.css);
 @import url(../blocks/button/_size/button_size_m.css);
 @import url(../blocks/button/_height/button_height_s.css);
 @import url(../blocks/form/__name/_big/form__name_big_size.css);
