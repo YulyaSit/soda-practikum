@@ -1,0 +1,15 @@
+.soda-composition__ellipse_size_s {
+    width: 138px;
+    height: 138px;
+    background: #FFDB00;
+    border: 3px solid #1E3264;
+    right: 481px;
+    top: 321px;
+}
+
+@media screen and (max-width: 1023px) {
+    .soda-composition__ellipse_size_s {
+        right: 60px;
+        top: 505px;
+    }
+}

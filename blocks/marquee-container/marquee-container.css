@@ -1,0 +1,8 @@
+.marquee-container {
+    overflow: hidden;
+    max-width: 1440px;
+    width: 100%;
+    padding: 20px 0;
+    color: #016450;
+    background-color: #CEF564;
+}

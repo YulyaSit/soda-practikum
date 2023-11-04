@@ -1,0 +1,34 @@
+.lemonades__caption-mango {
+    z-index: 1;
+    position: absolute;
+    right: 520px;
+    top: 42px;
+}
+
+@media screen and (max-width: 1023px) {
+    .lemonades__caption-mango {
+        left: 141px;
+        top: 396px;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .lemonades__caption-mango {
+        left: 56px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lemonades__caption-mango {
+        width: 122px;
+        left: 160px;
+        top: 292px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .lemonades__caption-mango {
+        left: 16px;
+        top: 307px;
+    }
+}

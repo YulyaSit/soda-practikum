@@ -1,0 +1,8 @@
+.button_size_s {
+    width: 158px;
+    color: white;
+}
+
+.button_size_s:hover {
+    border-color: #E1FD2C;
+}
